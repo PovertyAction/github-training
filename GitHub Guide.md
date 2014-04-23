@@ -70,8 +70,7 @@ Thus far we have been working on the "master" branch of our repository, but we c
 
 ![Creating a new branch](/img/create_branch.png)
 
-We then name our branch "test-branch." Now that we have created a new branch, we can work independently on it without changing the original file. This is especially useful when multiple users are working on a particular section of a given file or set of files, as you can divide each user's work into separate branches, avoiding the risk of users working over one another.
-Merging files is done by implementing a "pull request." Imagine we have now added a new line to the code in the "test-branch," and want to merge it into the master branch. Navigating back to the main repository page, ensuring that the branch selected is "test-branch," we click the green "Compare & pull request" button, as below:
+We then name our branch "test-branch." Now that we have created a new branch, we can work independently on it without changing the original file. This is especially useful when multiple users are working on a particular section of a given file or set of files, as you can divide each user's work into separate branches, avoiding the risk of users working over one another. Merging files is done by implementing a "pull request." Imagine we have now added a new line to the code in the "test-branch," and want to merge it into the master branch. Navigating back to the main repository page, ensuring that the branch selected is "test-branch," we click the green "Compare & pull request" button, as below:
 
 ![New pull request](/img/create_pull_request.png)
 
