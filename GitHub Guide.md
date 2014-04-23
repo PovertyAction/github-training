@@ -76,6 +76,8 @@ We then name our branch "test-branch." Now that we have created a new branch, we
 
 Submitting a pull request sends a message to the master branch requesting that whatever changes we have made be pulled into it. Such merges can be rather simple (e.g. appending a new line to an existing file) or rather complex, (e.g. merging multiple changes to the same line of code) which would require the use of Git on the command line. As all that was done below was to add one line ("Test merge") to the code, you can see on the right that we are able to merge this back into the master branch directly in GitHub. Now, after making any necessary comments, you can click "Send pull request."
 
+![Submitting a pull request](/img/submit_pull_request.png)
+
 Once the pull request has been submitted, one can review all the changes that have been made, assign particular users to review certain aspects of it, and have a general discussion between multiple users. Clicking "Merge pull request" and then "Confirm merge" is the final step in the process &mdash; changes will now be reflected in the master branch.
 
 ![Reviewing a pull request](/img/review_pull_request.png)
