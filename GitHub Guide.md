@@ -9,7 +9,7 @@ GitHub is an online platform for collaborative projects that uses the Git versio
 Installing Software
 -------------------
 
-- Sign up for GitHub: https://github.com/signup/free, creating a username and password
+- Sign up for GitHub: [https://github.com/signup/free](https://github.com/signup/free), creating a username and password
 - Download GitHub for Windows. GitHub for Windows is a GUI client that enables you to work on files off-line before making them public: http://windows.github.com/
 - Enter in the username/password that you used for GitHub itself.
 
