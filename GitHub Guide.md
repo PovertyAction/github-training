@@ -22,7 +22,7 @@ Log in to your GitHub.com account:
 
 ![Login](/img/github_login.png)
 
-Once logged in you will be brought to a front page (dashboard) where you can get started on creating your own repository. A repository is the space, essentially a folder, in which a project lives – i.e. it is the central location in which your files can be found and manipulated. On the dashboard you'll see your username in the upper left hand side of the page, a news feed that describes your recent activity, and a list of your repositories on the lower right.
+Once logged in you will be brought to a front page (dashboard) where you can get started on creating your own repository. A repository is the space, essentially a folder, in which a project lives &mdash; i.e. it is the central location in which your files can be found and manipulated. On the dashboard you'll see your username in the upper left hand side of the page, a news feed that describes your recent activity, and a list of your repositories on the lower right.
 
 ![Dashboard](/img/dashboard.png)
 
@@ -60,7 +60,7 @@ If you click the "History" button, you'll see a record of the commits you've mad
 
 ![Blame](/img/blame.png)
 
-Clicking on the random series of letters and numbers associated with each change (the ‘commit sha') shows a "diff" of the changes made at that point in time. See below:
+Clicking on the random series of letters and numbers associated with each change (the 'commit sha') shows a "diff" of the changes made at that point in time. See below:
 
 ![Example diff](/img/commit_diff.png)
 
@@ -77,7 +77,7 @@ Merging files is done by implementing a "pull request." Imagine we have now adde
 
 Submitting a pull request sends a message to the master branch requesting that whatever changes we have made be pulled into it. Such merges can be rather simple (e.g. appending a new line to an existing file) or rather complex, (e.g. merging multiple changes to the same line of code) which would require the use of Git on the command line. As all that was done below was to add one line ("Test merge") to the code, you can see on the right that we are able to merge this back into the master branch directly in GitHub. Now, after making any necessary comments, you can click "Send pull request."
 
-Once the pull request has been submitted, one can review all the changes that have been made, assign particular users to review certain aspects of it, and have a general discussion between multiple users. Clicking "Merge pull request" and then "Confirm merge" is the final step in the process – changes will now be reflected in the master branch.
+Once the pull request has been submitted, one can review all the changes that have been made, assign particular users to review certain aspects of it, and have a general discussion between multiple users. Clicking "Merge pull request" and then "Confirm merge" is the final step in the process &mdash; changes will now be reflected in the master branch.
 
 ![Reviewing a pull request](/img/review_pull_request.png)
 
