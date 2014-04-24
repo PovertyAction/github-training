@@ -12,21 +12,15 @@ Resources are written in Markdown, and saved as `.md` files. To learn about the 
 - https://help.github.com/articles/github-flavored-markdown
 - https://guides.github.com/features/mastering-markdown/
 
+Also make sure to see the list of [external learning resources](/External resources.md).
+
 Existing resources
 ------------------
 
-[GitHub User Guide](/GitHub User Guide.md)
+- [GitHub User Guide](/GitHub User Guide.md)
+- [External learning resources](/External resources.md)
 
 Converting to .pdf
 ------------------
 
 Use [GitPrint](http://gitprint.com/) to convert `.md` files to `.pdf`.
-
-External resources
-------------------
-
-- [Useful GitHub Repos for IPA/J-PAL Staff](https://github.com/PovertyAction/useful_repos/blob/master/useful_repos.md)
-- [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html)
-- [Git Is Simpler Than You Think](http://nfarina.com/post/9868516270/git-is-simpler)
-- [Code School - Practice the Git command line](http://try.github.io/levels/1/challenges/1)
-- [Git Reference](http://gitref.org/)
