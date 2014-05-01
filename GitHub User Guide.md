@@ -4,7 +4,11 @@ GitHub User Guide
 What is GitHub?
 ---------------
 
-GitHub is an online platform for collaborative projects that uses the Git version control system (VCS). GitHub allows users to utilize all of the features of Git without using command-line based programming. Users upload files to GitHub and then can share them with collaborators who can each work independently and merge in changes. GitHub (through Git) allows one to easily compare differences between files, all while keeping old versions archived. Moreover, one of the advantages of Git as compared with other VCS is the ability for users to work locally on files (without internet access) and only sync changes made when necessary. GitHub hosts a large number of open-sourced projects and also has a very active help community.
+GitHub is an online platform for collaborative projects that uses the Git version control system. GitHub is similiar to cloud-based platforms such as Dropbox and Box
+in that files exist in the cloud, but users download and edit files on their local computers. In this way, files can easily be shared across users. GitHub is distinct in the way
+in which it tracks and stores changes to files. GitHub creates a new version of a file only when a user 'commits' a change, and writes an accompanying descriptive message.
+GitHub also allows easy comparison of changes across different versions, and allows users to revert back to them. Finally, GitHub offers a well developed platform for commenting on code
+and tracking various issues that arise in collaborating on files. GitHub is used by a wide variety of organizations, hosts a large number of open-sourced projects and also has a very active help community.
 
 Installing Software
 -------------------
