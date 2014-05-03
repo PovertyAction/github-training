@@ -74,15 +74,28 @@ Thus far we have been working on the "master" branch of our repository, but we c
 
 ![Creating a new branch](/img/create_branch.png)
 
-We then name our branch "test-branch." Now that we have created a new branch, we can work independently on it without changing the original file. This is especially useful when multiple users are working on a particular section of a given file or set of files, as you can divide each user's work into separate branches, avoiding the risk of users working over one another. Merging files is done by implementing a "pull request." Imagine we have now added a new line to the code in the "test-branch," and want to merge it into the master branch. Navigating back to the main repository page, ensuring that the branch selected is "test-branch," we click the green "Compare & pull request" button, as below:
+We then name our branch "test-branch." Now that we have created a new branch, we can work independently on it without changing the original file.
+This is especially useful when multiple users are working on a particular section of a given file or set of files, as you can divide each user's work
+into separate branches, avoiding the risk of users working over one another.
+Merging files is done by implementing a "pull request." Imagine we have now added a new line to the code in the "test-branch,"
+and want to merge it into the master branch. Navigating back to the main repository page, ensuring that the branch selected is "test-branch,"
+we click the green "Compare & pull request" button, as below:
 
 ![New pull request](/img/create_pull_request.png)
 
-Submitting a pull request sends a message to the master branch requesting that whatever changes we have made be pulled into it. Such merges can be rather simple (e.g. appending a new line to an existing file) or rather complex, (e.g. resolving changes to the same line of code from multiple branches) which would require the use of Git on the command line. As all that was done below was to add one line ("Test merge") to the code, you can see on the right that we are able to merge this back into the master branch directly in GitHub. Now, after making any necessary comments, you can click "Send pull request."
+Submitting a pull request sends a message to the master branch requesting that whatever changes we have made be pulled into it.
+Such merges can be rather simple (e.g. appending a new line to an existing file) or rather complex,
+(e.g. resolving changes to the same line of code from multiple branches) which would require the use of Git on the command line.
+As all that was done below was to add one line ("Test merge") to the code, you can see on the right that we are able to merge
+this back into the master branch directly in GitHub. Now, after making any necessary comments, you can click "Send pull request."
 
 ![Submitting a pull request](/img/submit_pull_request.png)
 
-Once the pull request has been submitted, one can review all the changes that have been made, assign particular users to review certain aspects of it, and have a general discussion between multiple users. Users can also make additional commits within a given pull request. Once all commits have been made and changes reviewed, clicking "Merge pull request" and then "Confirm merge" is the final step in the process &mdash; changes will now be reflected in the master branch.
+Once the pull request has been submitted, one can review all the changes that have been made, assign particular users to review certain aspects of it,
+and have a general discussion between multiple users. Users can also make additional commits within a given pull request. This process is simple, given any
+new commit made to the branch to be merged is automatically added to the pull request. 
+Once all commits have been made and changes reviewed, clicking "Merge pull request" and then "Confirm merge" is the final step in the process &mdash;
+changes will now be reflected in the master branch. For more on pull requests, see [here](https://help.github.com/articles/using-pull-requests).
 
 ![Reviewing a pull request](/img/review_pull_request.png)
 
@@ -110,12 +123,15 @@ IPA has collected a wealth of additional Git and GitHub resources, which you can
 
 ![Watch a repository](/img/watch_button.png)
 
-### Issues and In-Line Notes
+### Issues
 
 Issues are suggested improvements, tasks or questions related to a repository and/or the files found within it.
 Issues can be created by anyone (for public repositories), and are moderated by repository collaborators. 
-Each issue contains its own discussion forum, can be labeled and assigned to a user. Click the 'Issues' tab on the right
-of any repository and then 'New Isssue' to start working with issues. 
+Each issue contains its own discussion forum, can be labeled and assigned to a user. Issues integrate well into commits and pull requests: they can be referenced
+and even closed directly when making a commit/accepting a pull request. To get started, click the 'Issues' tab on the right
+of any repository and then 'New Isssue'.
+
+![Issues](/img/issue.png)
 
 ### Private vs. Public Repositories
 
