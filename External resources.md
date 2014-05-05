@@ -12,7 +12,7 @@ Getting started
 Graphical User Interfaces (GUIs)
 --------------------------------
 
-- [Git Extensions](http://sourceforge.net/projects/gitextensions/). Our recommendation for most IPA users. **Important:** on Windows 7, install to `My Documents`, not `Program Files`.
+- [Git Extensions](http://sourceforge.net/projects/gitextensions/). Our recommendation for most IPA users. **Important:** on Windows 7, install to `My Documents`, not `Program Files`. See the Git Extensions [Manual](https://git-extensions-documentation.readthedocs.org/en/latest/) for an introduction to using the tool.
 - [GitHub for Windows](https://windows.github.com/)
 
 Forking
