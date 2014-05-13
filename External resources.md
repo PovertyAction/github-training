@@ -3,11 +3,12 @@ External learning resources
 
 This document lists some of the most useful GitHub learning resources available outside this repository.
 
-Getting started
+'Git'ing started
 ---------------
 
 - [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html). An excellent introduction to Git concepts &mdash; though longer than it should be, so you may wish to skim some sections.
 - [git - the simple guide](http://rogerdudler.github.io/git-guide/). Skip all talk about the command line, and focus on concepts.
+
 
 Graphical User Interfaces (GUIs)
 --------------------------------
