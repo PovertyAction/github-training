@@ -4,7 +4,11 @@ GitHub User Guide
 What is GitHub?
 ---------------
 
-GitHub is an online platform for collaborative projects that uses the Git version control system (VCS). GitHub allows users to utilize all of the features of Git without using command-line based programming. Users upload files to GitHub and then can share them with collaborators who can each work independently and merge in changes. GitHub (through Git) allows one to easily compare differences between files, all while keeping old versions archived. Moreover, one of the advantages of Git as compared with other VCS is the ability for users to work locally on files (without internet access) and only sync changes made when necessary. GitHub hosts a large number of open-sourced projects and also has a very active help community.
+GitHub is an online platform for collaborative projects that uses the Git version control system. GitHub is similiar to cloud-based platforms such as Dropbox and Box
+in that files exist in the cloud, but users download and edit files on their local computers. In this way, files can easily be shared across users. GitHub is distinct in the way
+in which it tracks and stores changes to files. GitHub creates a new version of a file only when a user 'commits' a change, and writes an accompanying descriptive message.
+GitHub also allows easy comparison of changes across different versions, and allows users to revert back to them. Finally, GitHub offers a well developed platform for commenting on code
+and tracking various issues that arise in collaborating on files. GitHub is used by a wide variety of organizations, hosts a large number of open-sourced projects and also has a very active help community.
 
 Installing Software
 -------------------
@@ -30,7 +34,7 @@ To create a new repository, click on the green "New repository" button or the ic
 
 ![Create a repository](/img/new_repo.png)
 
-You can now create a name for your repository and write a short description. The default option is that your repository is publicly available to be accessed, while working with private repositories requires a paid GitHub account. You have the option to make a readme file describing your repository (recommended), have GitHub ignore certain types of files, and add a license. When done, click on "Create repository."
+You can now create a name for your repository and write a short description. The default option is that your repository is publicly available to be accessed, while working with private repositories requires a paid GitHub account. You have the option to make a ReadMe file describing your repository (recommended), have GitHub ignore certain types of files, and add a license. When done, click on "Create repository."
 
 Using GitHub
 ------------
@@ -70,15 +74,28 @@ Thus far we have been working on the "master" branch of our repository, but we c
 
 ![Creating a new branch](/img/create_branch.png)
 
-We then name our branch "test-branch." Now that we have created a new branch, we can work independently on it without changing the original file. This is especially useful when multiple users are working on a particular section of a given file or set of files, as you can divide each user's work into separate branches, avoiding the risk of users working over one another. Merging files is done by implementing a "pull request." Imagine we have now added a new line to the code in the "test-branch," and want to merge it into the master branch. Navigating back to the main repository page, ensuring that the branch selected is "test-branch," we click the green "Compare & pull request" button, as below:
+We then name our branch "test-branch." Now that we have created a new branch, we can work independently on it without changing the original file.
+This is especially useful when multiple users are working on a particular section of a given file or set of files, as you can divide each user's work
+into separate branches, avoiding the risk of users working over one another.
+Merging files is done by implementing a "pull request." Imagine we have now added a new line to the code in the "test-branch,"
+and want to merge it into the master branch. Navigating back to the main repository page, ensuring that the branch selected is "test-branch,"
+we click the green "Compare & pull request" button, as below:
 
 ![New pull request](/img/create_pull_request.png)
 
-Submitting a pull request sends a message to the master branch requesting that whatever changes we have made be pulled into it. Such merges can be rather simple (e.g. appending a new line to an existing file) or rather complex, (e.g. merging multiple changes to the same line of code) which would require the use of Git on the command line. As all that was done below was to add one line ("Test merge") to the code, you can see on the right that we are able to merge this back into the master branch directly in GitHub. Now, after making any necessary comments, you can click "Send pull request."
+Submitting a pull request sends a message to the master branch requesting that whatever changes we have made be pulled into it.
+Such merges can be rather simple (e.g. appending a new line to an existing file) or rather complex,
+(e.g. resolving changes to the same line of code from multiple branches) which would require the use of Git on the command line.
+As all that was done below was to add one line ("Test merge") to the code, you can see on the right that we are able to merge
+this back into the master branch directly in GitHub. Now, after making any necessary comments, you can click "Send pull request."
 
 ![Submitting a pull request](/img/submit_pull_request.png)
 
-Once the pull request has been submitted, one can review all the changes that have been made, assign particular users to review certain aspects of it, and have a general discussion between multiple users. Clicking "Merge pull request" and then "Confirm merge" is the final step in the process &mdash; changes will now be reflected in the master branch.
+Once the pull request has been submitted, one can review all the changes that have been made, assign particular users to review certain aspects of it,
+and have a general discussion between multiple users. Users can also make additional commits within a given pull request. This process is simple, given any
+new commit made to the branch to be merged is automatically added to the pull request. 
+Once all commits have been made and changes reviewed, clicking "Merge pull request" and then "Confirm merge" is the final step in the process &mdash;
+changes will now be reflected in the master branch. For more on pull requests, see [here](https://help.github.com/articles/using-pull-requests).
 
 ![Reviewing a pull request](/img/review_pull_request.png)
 
@@ -90,7 +107,7 @@ From the above, you can probably see how GitHub can be a powerful collaborative 
 
 ![Forking](/img/fork_button.png)
 
-Once you've forked a repository, you can create new branches off of the fork, submit pull requests to the master branch, and update your fork with any changes that have been made to the master.
+Once you've forked a repository, you can create new branches off of the fork, submit pull requests to the original repository, and update your fork with any changes that have been made to the original.
 
 As mentioned above, branching is a key component to working collaboratively. Multiple branches can be created according to which files/portions of code that each team member is working on. Each user can work independently (on their local drive) on these branches, without affecting the master branch, and only merging in changes when necessary. As with all of GitHub, all changes are tracked on all branches, making it relatively easy to see which changes were made by which user.
 
@@ -99,14 +116,24 @@ Other Keys to GitHub
 
 ### GitHub Help and Training
 
-GitHub has a very large user community and extensive training materials. They offer free monthly trainings, with Q&A: see http://training.github.com/. The help section of the website is also quite extensive - https://help.github.com/. A great way to learn is to simply follow one of the thousands of public repositories on GitHub. You can "follow" a specific user on the site or "watch" a project, allowing you to see updates to the project in your dashboard.
+GitHub has a very large user community and extensive training materials. They offer free [monthly trainings] (http://training.github.com/), with Q&A directly following. The [help](https://help.github.com/) section of the website is also quite extensive.
+A great way to learn is to simply follow one of the thousands of public repositories on GitHub. 
+You can "follow" a specific user on the site or "watch" a project, allowing you to see updates to the project in your dashboard.
+IPA has collected a wealth of additional Git and GitHub resources, which you can find [here](https://github.com/PovertyAction/github-training/blob/master/External%20resources.md)
 
 ![Watch a repository](/img/watch_button.png)
 
 ### Issues
 
-Issues are suggested improvements, tasks or questions related to the repository. Issues can be created by anyone (for public repositories), and are moderated by repository collaborators. Each issue contains its own [discussion forum, can be labeled and assigned to a user.
+Issues are suggested improvements, tasks or questions related to a repository and/or the files found within it.
+Issues can be created by anyone (for public repositories), and are moderated by repository collaborators. 
+Each issue contains its own discussion forum, can be labeled and assigned to a user. Issues integrate well into commits and pull requests: they can be referenced
+and even closed directly when making a commit/accepting a pull request. To get started, click the 'Issues' tab on the right
+of any repository and then 'New Isssue'.
+
+![Issues](/img/issue.png)
 
 ### Private vs. Public Repositories
 
-The default option is for a repository to be public when it is created. Outside users can access the original code (e.g. by forking the repository) but could not modify it without making changes and having their pull request accepted by the repository's collaborators. Private repositories, whose code/files cannot be viewed unless a user is expressly invited, are available under all paid GitHub accounts.
+The default option is for a repository to be public when it is created. Outside users can access the original code (e.g. by forking the repository) but could not modify it without making changes and having their pull request accepted by the repository's collaborators. Private repositories, whose code/files cannot be viewed unless a user is expressly invited, are available under all paid GitHub accounts. See [here](https://github.com/pricing) for GitHub's pricing plans. 
+
