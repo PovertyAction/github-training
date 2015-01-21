@@ -19,8 +19,8 @@ Also make sure to see the list of [external learning resources](/External resour
 Existing resources
 ------------------
 
-- [GitHub User Guide](/GitHub User Guide.md)
-- [External learning resources](/External resources.md)
+- [GitHub User Guide](/resources/GitHub User Guide.md)
+- [External learning resources](/resources/External resources.md)
 
 Converting to .pdf
 ------------------
