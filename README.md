@@ -20,6 +20,7 @@ Existing resources
 ------------------
 
 - [GitHub User Guide](/resources/GitHub User Guide.md)
+- [FAQs](/resources/FAQs.md)
 - [External learning resources](/resources/External resources.md)
 
 Converting to .pdf
