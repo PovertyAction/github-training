@@ -21,6 +21,7 @@ Existing resources
 
 - [GitHub User Guide](/resources/GitHub User Guide.md)
 - [FAQs](/resources/FAQs.md)
+- [Code checking with GitHub](/resources/Code checking.md)
 - [External learning resources](/resources/External resources.md)
 
 Converting to .pdf

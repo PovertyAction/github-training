@@ -1,0 +1,4 @@
+Code checking with GitHub
+=========================
+
+...
