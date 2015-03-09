@@ -1,5 +1,6 @@
-**GitHub for Code Checks**
-=========================
+GitHub for Code Checks
+======================
+
 This guide will summarize how to use GitHub as a tool to implement code checks. If you have questions about this guide or suggestions for improvements, email IPA Research Support at researchsupport@poverty-action.org or submit an issue on [IPA’s GitHub Training repository](https://github.com/PovertyAction/github-training/issues/).
 
 A quick primer on the main components of the guide:
@@ -10,7 +11,8 @@ A quick primer on the main components of the guide:
 
 How can you use GitHub to facilitate code checks? For the purposes of this guide, assume you have been given the task of checking and giving feedback on a collection of code files on GitHub.
 
-**Essential GitHub Concepts for Code Checks:**
+Essential GitHub Concepts for Code Checks
+-----------------------------------------
 
 1) Utilize the fantastic **GitHub Issues** tracker. In short, start an issue if there is a relatively broad question that you want to raise with the code writer. Say you want to note a file is missing or there is a systematic error across files. An issue can comprise simply text, but it is also easy to link to specific files, or even lines in files. Issues have much functionality: they can be categorized using labels, referenced in other issues/commits, and assigned to specific users. There is much more to say on how issues can be used – see [here](https://guides.github.com/features/issues/) for GitHub's take on the topic, and [here](https://github.com/PovertyAction/github-training/issues/2) for an example issue from IPA’s GitHub training repository. For your purposes as a code checker – if there’s an issue with the code, start with Issues!
 
@@ -18,17 +20,16 @@ How can you use GitHub to facilitate code checks? For the purposes of this guide
 
 Using the above two tools is a great and simple way to implement code checks. There are a few additional points to keep in mind:
 
-•	The code checker needs read/write access to the given repository. See more on permissions [here](https://help.github.com/articles/permission-levels-for-an-organization-repository/).
+- The code checker needs read/write access to the given repository. See more on permissions [here](https://help.github.com/articles/permission-levels-for-an-organization-repository/).
+- When you link to a given file/line, press the ‘y’ key before copying the link. This makes the link stable (e.g. if a new version of the file is created, the stable link will link to exactly the version as when you made it)
+- For easier browsing/sharing, IPA has developed a simple program to download a list of in-line notes – see **HERE** for more.
 
-•	When you link to a given file/line, press the ‘y’ key before copying the link. This makes the link stable (e.g. if a new version of the file is created, the stable link will link to exactly the version as when you made it)
-
-•	For easier browsing/sharing, IPA has developed a simple program to download a list of in-line notes – see **HERE** for more.
-
-**Alternate Models**
+Alternate Models
+----------------
 
 What was described above is the simplest model for doing code checks using GitHub: using issues and making in-line notes on the master branch. However, there are several more, somewhat more advanced models that you might want to consider.
 
-**Branching Model:**
+### Branching Model
 
 1. First, create a new branch for the code checker to write their own code. Call it, for example, code_check
 
@@ -38,7 +39,7 @@ What was described above is the simplest model for doing code checks using GitHu
 
 4. Issues are not associated with branches, so certainly don’t hesitate to continue using them. In-line notes should be made on the code_check branch, though note the original author will still get notifications whenever comments are made.
 
-**Forking Model:**
+### Forking Model
 
 1. A final option is to [fork](https://help.github.com/articles/fork-a-repo/) the original repository – where you create an exact copy of the original repository. Note that the fork is a completely separate repository as the original, unlike with the branching model, where you’re working on the same repository.
 
@@ -50,9 +51,8 @@ What was described above is the simplest model for doing code checks using GitHu
 
 To summarize, there are three broad ways to implement code checks in GitHub:
 
-•	**Model 1:** Use issues and in-line comments exclusively. Don’t create any branches/forks. [Easiest to implement, loss of ability to easily write/incorporate new code into original work]
+1. Use issues and in-line comments exclusively. Don’t create any branches/forks. [Easiest to implement, loss of ability to easily write/incorporate new code into original work]
 
-•	**Model 2:** Create a new branch on the original repository and submit pull requests between branches. Use issues and in-line comments, on new branch. [Slightly more difficult to implement, but greatest functionality]
+2. Create a new branch on the original repository and submit pull requests between branches. Use issues and in-line comments, on new branch. [Slightly more difficult to implement, but greatest functionality]
 
-•	**Model 3:** Create fork and submit pull requests between repositories. [Most difficult to implement, should rarely be used]
-
+3. Create fork and submit pull requests between repositories. [Most difficult to implement, should rarely be used]
