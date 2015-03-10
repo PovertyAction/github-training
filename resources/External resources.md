@@ -10,12 +10,10 @@ This document lists some of the most useful GitHub learning resources available 
 - [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html). An excellent introduction to Git concepts &mdash; though longer than it should be, so you may wish to skim some sections.
 - [git - the simple guide](http://rogerdudler.github.io/git-guide/). Skip all talk about the command line, and focus on concepts.
 
-
-
 Graphical User Interfaces (GUIs)
 --------------------------------
 
-- [Git Extensions](http://sourceforge.net/projects/gitextensions/). Our recommendation for most IPA users. **Important:** on Windows 7, install to `My Documents`, not `Program Files`. See the Git Extensions [Manual](https://git-extensions-documentation.readthedocs.org/en/latest/) for an introduction to using the tool.
+- [Git Extensions](http://sourceforge.net/projects/gitextensions/). Our recommendation for most IPA users. **Important:** on Windows 7, install to `My Documents`, not `Program Files`. See the Git Extensions [manual](https://git-extensions-documentation.readthedocs.org/en/latest/) for an introduction to using the tool.
 - [GitHub for Windows](https://windows.github.com/)
 
 Forking
@@ -34,6 +32,7 @@ Other collaboration models
 More advanced
 -------------
 
+- [Commit only part of a file](http://stackoverflow.com/questions/1085162/commit-only-part-of-a-file-in-git)
 - [Git Is Simpler Than You Think](http://nfarina.com/post/9868516270/git-is-simpler). A nice description of the Git data model. Necessarily technical, but definitely worth it.
 
 Command line
