@@ -24,7 +24,7 @@ Wanting to expand the size of your repo
 Stashing changes
 ----------------
 
--You don't need to stash when you change branches and have uncommitted working directory changes.
+- You don't need to stash when you change branches and have uncommitted working directory changes.
 Error would occur if you have conflicts between branches.
 
 Creating a GitHub repo with an existing Box/Dropbox folder
@@ -53,11 +53,11 @@ cause of this is clicking the 'Reset all Changes' button in the commit window wh
 in the .gitignore and a folder in your repo contains only .dta files, these will be deleted
 if you click 'Reset all Changes'. There are several ways to guard against this problem:
 
--If you want to reset changes, right click on individual files that you want to reset in the
+- If you want to reset changes, right click on individual files that you want to reset in the
 commit window (which will remove all changes made to that file since its last commit)
--Alternatively you can ensure that at least 1 non-ignored file (say, an empty .txt file) is in
+- Alternatively you can ensure that at least 1 non-ignored file (say, an empty .txt file) is in
 every folder in your repo
--Finally, you can simply not use a .gitignore file
+- Finally, you can simply not use a .gitignore file
 
 The easiest solution is to **never click the 'Reset all Changes' button.** If your files are deleted,
 unfortunately there is no recourse through git and you'd have to rely on recovering them through Box/Dropbox.
