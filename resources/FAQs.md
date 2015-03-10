@@ -1,16 +1,28 @@
 Commmon issues and solutions
-
-------------------
+============================
 
 Amending a previous commit message
+----------------------------------
+
+*Nothing has been written.*
 
 Dealing with merge conflicts
+----------------------------
 
-Pushing/Pulling problems
+*Nothing has been written.*
+
+Pushing/pulling problems
+------------------------
+
+*Nothing has been written.*
 
 Wanting to expand the size of your repo
+---------------------------------------
+
+*Nothing has been written.*
 
 Stashing changes
+----------------
 
 -You don't need to stash when you change branches and have uncommitted working directory changes.
 Error would occur if you have conflicts between branches.
@@ -33,7 +45,7 @@ from your existing folder into this new folder (which contains the hidden .git f
 to correspond with the original.
 
 Important: Avoiding GitExtensions deleting files in your repository
---------------------------------------------------------------------
+-------------------------------------------------------------------
 
 In rare cases using GitExtensions might cause files in your repo to be deleted. The most likely
 cause of this is clicking the 'Reset all Changes' button in the commit window when you set your
@@ -51,4 +63,3 @@ The easiest solution is to **never click the 'Reset all Changes' button.** If yo
 unfortunately there is no recourse through git and you'd have to rely on recovering them through Box/Dropbox.
 While this situation will not occur if you follow the above instructions, it underscores the importance
 of always having a secondary backup of your files.
-
