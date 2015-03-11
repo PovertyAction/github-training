@@ -22,6 +22,7 @@ Existing resources
 - [GitHub User Guide](/resources/GitHub User Guide.md)
 - [FAQs](/resources/FAQs.md)
 - [Download GitHub metadata, including issues and commit comments](https://github.com/PovertyAction/github-download)
+- [GitHub for code checks](/resources/Code checking.md)
 - [Integrating Git and Stata](/resources/Integrating Git and Stata.md)
 - [External learning resources](/resources/External resources.md)
 
